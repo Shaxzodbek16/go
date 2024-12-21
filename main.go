@@ -1,10 +1,9 @@
 package main
 
+import "fmt"
 
-func main(){
-	 var jasur = "Jasur";
-	 println(jasur);
-	 for true{
-		println(jasur)
-	 }
+import "rsc.io/quote"
+
+func main() {
+	fmt.Println(quote.Go())
 }
